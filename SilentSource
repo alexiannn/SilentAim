@@ -1,8 +1,8 @@
 getgenv().Settings = {
     Keybind = "Z",
     Notifications = true,
-    Visible = false,
-    FOV = 14
+    Visible = true,
+    FOV = 50
 }
 
 
@@ -25,15 +25,15 @@ local LocalPlayer = Players.LocalPlayer
 local CurrentCamera = Workspace.CurrentCamera
 
 local DaHoodSettings = {
-    Prediction = 0.1361,
+    Prediction = 0.12,
 
     SilentAim = false,
 
-    AimLock = false,
+    AimLock = false, -- // enable for aimbot, toggle Y -- //
     AimLockKeybind = Enum.KeyCode.Y,
     AlexianLock = {
         Enabled = false,
-        Smoothness = 0.05,
+        Smoothness = 0.5,
         CurvePoints = { 
             Vector2.new(0.33, 0),
             Vector2.new(0.17, 1)
